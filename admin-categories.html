@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/product-add.css">
+    <title>verbblast.com</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html" class="nav_content">Вернуться на сайт</a>
+        </div>
+        <div>
+            <a href="admin-index.html"><p class="nav_content">Ваши товары</p></a>
+            <a href="admin-categories.html"><p class="nav_content">Ваши категории</p></a>
+        </div>
+    </nav>
+    <p class="title center">Создать категорию</p>
+    <form class="container product-add" action="admin-index.html">
+        <div class="form-container">
+            <p>Название</p>
+            <input type="text" name="name" placeholder="Название">
+            <button type="submit" class="edit">Создать</button>
+        </div>
+    </form>
+    <div class="container">
+    <p class="title center">Ваши категории</p>
+    <table class="products">
+        <thead>
+          <tr class="product">
+            <th class="tb-name">Название</th>
+            <th class="tb-action">Действия</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="product">
+            <td class="tb-name">Категория 1</td>
+            <td class="tb-action">
+                <div>
+                    <a class="edit" href="admin-category-edit.html">Изменить</a>
+                    <a class="delete" href="#">Удалить</a>
+                </div>
+            </td>
+          </tr>
+          <tr class="product">
+            <td class="tb-name">Категория 1</td>
+            <td class="tb-action">
+                <div>
+                    <a class="edit" href="admin-product-edit.html">Изменить</a>
+                    <a class="delete" href="#">Удалить</a>
+                </div>
+            </td>
+          </tr>
+          <tr class="product">
+            <td class="tb-name">Категория 1</td>
+            <td class="tb-action">
+                <div>
+                    <a class="edit" href="admin-product-edit.html">Изменить</a>
+                    <a class="delete" href="#">Удалить</a>
+                </div>
+            </td>
+          </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

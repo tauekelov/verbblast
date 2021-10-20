@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/product-add.css">
+    <title>FoodStore.dev</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html" class="nav_content">Вернуться на сайт</a>
+        </div>
+        <div>
+            <a href="admin-index.html"><p class="nav_content">Ваши товары</p></a>
+            <a href="admin-categories.html"><p class="nav_content">Ваши категории</p></a>
+        </div>
+    </nav>
+    <p class="title center">Изменить товар</p>
+    <form class="container product-add" action="admin-index.html">
+        <div class="form-container">
+            <p>Название</p>
+            <input type="text" name="name" value="King Jr." placeholder="Название">
+            <p>Описание</p>
+            <textarea name="description" cols="200" rows="10">Описание товара</textarea>
+            <p>Изображение</p>
+            <input type="file">
+            <p>Цена</p>
+            <input type="text" name="price" placeholder="цена" value="2499">
+            <br>
+            <button type="submit" class="edit">Изменить</button>
+        </div>
+    </form>
+</body>
+</html>
